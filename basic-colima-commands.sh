@@ -39,4 +39,7 @@ arch: aarch64
 
 # Enable Rosetta for x86 compatibility
 vzRosetta: true
+
+# Assign IP address 
+Create a persistent configuration file:
 EOF

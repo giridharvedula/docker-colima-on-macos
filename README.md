@@ -18,3 +18,13 @@ For running Docker on macOS without Docker Desktop, **Colima** is the recommende
 | Compatibility with Docker workflows        | ✅ Better compatibility                                                       | ❌ Some features may not work identically  |
 | Security                                  | —                                                                            | ✅ Rootless containers by default          |
 | Enterprise support                         | —                                                                            | ✅ Red Hat backing and enterprise support  |
+
+## Prerequisites
+
+### Install Homebrew
+
+If Homebrew is not already installed:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```

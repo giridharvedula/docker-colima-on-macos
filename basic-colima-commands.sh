@@ -7,8 +7,7 @@ colima logs
 colima list
 colima delete
 
-# Colima start with custom rssource
-Start Colima with custom resources (e.g., 2 CPUs, 4GB RAM, 50GB disk):
+# Start Colima with custom resources (e.g., 2 CPUs, 4GB RAM, 50GB disk):
 
 # Create a persistent configuration file:
 ## Create config directory
@@ -41,5 +40,5 @@ arch: aarch64
 vzRosetta: true
 
 # Assign IP address 
-Create a persistent configuration file:
+--network-address
 EOF
